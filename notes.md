@@ -29,7 +29,10 @@ Common Time ===
 
 Step 1: Take starting hours and ending hours---
 
-### Now 1) 
+### Now 1) [1,2,3] [2,3,4,5] [4,5,6]
+
+[2,3] [2,5]
+[2]
 
 
 

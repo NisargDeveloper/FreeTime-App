@@ -1,0 +1,167 @@
+body {
+  background-color: gray;
+  display: grid;
+  place-items: center;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 700px;
+  width: 700px;
+  background-color: rgb(216, 216, 216);
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+form {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+#hod {
+  padding: 10px;
+  width: 400px;
+  border: 2px solid hsl(0deg 0% 0% / 17%);
+  background: transparent;
+  position: absolute;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+  left: 0;
+  font-size: 20px;
+  outline: none;
+  margin-top: 4px;
+  transition: all 200ms ease-in-out;
+  border-radius: 50px;
+}
+
+#hod:hover{
+  background-color: rgb(207, 207, 207);
+}
+
+#hod:hover::placeholder {
+  color: white;
+}
+
+#hod::placeholder {
+  padding: 10px;
+  outline: none;
+  margin: 0 auto;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+
+#hod::placeholder:focus {
+  outline: none;
+  border: none;
+}
+
+h2 {
+  font-size: 30px;
+  color: black;
+}
+
+.occupied {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 1;
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+}
+.labels {
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  position: relative;
+  /* background-color: purple; */
+  text-align: left;
+  width: 100px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 140px;
+}
+
+input {
+  position: absolute;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+#time9to10:hover input ~ #time9to10 {
+  background-color: red;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.btn button {
+  /* padding: 10px; */
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 20px;
+  background: #8C84EB;
+  cursor: pointer;
+  border: 0;
+  color: white;
+  font-weight: 400;
+  width: 100%;
+  border-radius: 50px;
+  
+}
+
+#calcFreeTimeNew {
+  margin-top: 10px;
+  width: 100%;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  transition: all 200ms ease-in;
+}
+
+button:hover {
+  background: #6c60ec;
+}
+
+button:active {
+  border-style: outset;
+}
+
+.details {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.unordered {
+  list-style: none;
+}
+
+
+
+
+

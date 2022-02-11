@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hod Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+    <h2 id="heading">Common Free Time</h2>
+    <form class="form" id="form">
+      <input type="text" name="Name" id="hod" placeholder="Enter Faculty Name">
+      <br/>
+      <h2 class="occupied">Select Occupied Time</h2>
+      <div class="labels">
+        <label>9 to 10:
+          <input type="checkbox" name="time"  value="9 to 10" id="time9to10" class="test">
+          <span class="checkmark"></span>
+          </label>
+          <label>10 to 11:
+            <input type="checkbox" name="time"  value="10 to 11" id="time10to11">
+            </label>
+          <label>11 to 12:
+            <input type="checkbox" name="time" id="time11to12" value="11 to 12">
+          </label>
+          <label>12 to 1:
+            <input type="checkbox" name="time" id="time12to1" value="12 to 1">
+          </label>
+          <label>1 to 2:
+            <input type="checkbox" name="time" id="time1to2" value="1 to 2">
+          </label>
+          <label>2 to 3:
+            <input type="checkbox" name="time" id="time2to3" value="2 to 3">
+          </label>
+          <label>3 to 4:
+            <input type="checkbox" name="time"  value="3 to 4" id="time3to4">
+            </label>
+      </div>
+      </label>
+      <div class="btn">
+        <button type="submit" id="submit">Submit</button>
+        <button id= "calcFreeTimeNew" type="submit">Calculate Free Time</button>
+      </div>
+      
+    </form>
+  </div>
+  <div class="details">
+    List of Details
+  <ul class="unordered" id="unordered">
+  </ul>
+  </div> 
+<script src="./script.js"></script>
+</body>
+</html>
